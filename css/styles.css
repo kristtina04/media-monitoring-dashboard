@@ -1,0 +1,36 @@
+/* css/styles.css */
+.source-item {
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.source-item:last-child {
+    border-bottom: none;
+}
+
+.source-item .source-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.filter-section {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.badge {
+    font-weight: normal;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+#lastUpdate {
+    color: rgba(255,255,255,0.8);
+    font-size: 0.9em;
+}
